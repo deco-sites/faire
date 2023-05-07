@@ -83,8 +83,10 @@ import * as i2$$1 from "deco-sites/std/accounts/shopify.ts";
 import * as i2$$2 from "deco-sites/std/accounts/vnda.ts";
 import * as i2$$3 from "deco-sites/std/accounts/vtex.ts";
 import * as i2$$4 from "deco-sites/std/accounts/yourViews.ts";
-import * as i2$$$0 from "deco-sites/std/loaders/vtexLegacyProductDetailsPage.ts";
-import * as i2$$$1 from "deco-sites/std/loaders/vtexLegacyRelatedProductsLoader.ts";
+import * as i2$$$0 from "deco-sites/std/loaders/faireSearch.ts";
+import * as i2$$$1 from "deco-sites/std/loaders/faireSearchPage.ts";
+import * as i2$$$2 from "deco-sites/std/loaders/vtexLegacyProductDetailsPage.ts";
+import * as i2$$$3 from "deco-sites/std/loaders/vtexLegacyRelatedProductsLoader.ts";
 import * as i2$$$$3 from "deco-sites/std/sections/Analytics.tsx";
 import * as i2$$$$4 from "deco-sites/std/sections/configOCC.global.tsx";
 import * as i2$$$$5 from "deco-sites/std/sections/configShopify.global.tsx";
@@ -204,8 +206,10 @@ const manifest = {
     "deco-sites/std/accounts/yourViews.ts": i2$$4,
   },
   "loaders": {
-    "deco-sites/std/loaders/vtexLegacyProductDetailsPage.ts": i2$$$0,
-    "deco-sites/std/loaders/vtexLegacyRelatedProductsLoader.ts": i2$$$1,
+    "deco-sites/std/loaders/faireSearch.ts": i2$$$0,
+    "deco-sites/std/loaders/faireSearchPage.ts": i2$$$1,
+    "deco-sites/std/loaders/vtexLegacyProductDetailsPage.ts": i2$$$2,
+    "deco-sites/std/loaders/vtexLegacyRelatedProductsLoader.ts": i2$$$3,
   },
   "config": config,
   "baseUrl": import.meta.url,
